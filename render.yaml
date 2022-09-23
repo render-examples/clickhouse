@@ -3,6 +3,7 @@ services:
     name: clickhouse
     env: docker
     plan: standard
+    autoDeploy: false
     disk:
       name: data
       mountPath: /var/lib/clickhouse
