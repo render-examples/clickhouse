@@ -1,0 +1,24 @@
+<users>
+    <!-- If user name was not specified, 'default' user is used. -->
+    <user_name>
+        <password_sha256_hex>50bb5d81b56b2dc2cb72311093546bd5e3097e16</password_sha256_hex>
+
+        <access_management>1</access_management>
+
+        <networks incl="networks" replace="replace">
+        </networks>
+
+        <profile>profile_name</profile>
+
+        <quota>default</quota>
+        <default_database>default</default_database>
+        <databases>
+            <database_name>
+                <table_name>
+                    <filter>expression</filter>
+                </table_name>
+            </database_name>
+        </databases>
+    </user_name>
+    <!-- Other users settings -->
+</users>
